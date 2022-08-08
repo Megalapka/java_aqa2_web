@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/ue8iw437ou2ry58o?svg=true)](https://ci.appveyor.com/project/Megalapka/java-aqa2-web)
 # Домашнее задание к занятию «2.1. Тестирование веб-интерфейсов»
 
 В качестве результата пришлите ссылку на ваш GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru).
