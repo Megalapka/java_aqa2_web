@@ -4,17 +4,16 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.List;
+
 
 public class ValidationCardApplication {
     private WebDriver driver;
 
     @BeforeAll
     static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "C:/Project/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:/Project/java_aqa2_web/resources/chromedriver.exe");
     }
 
     @BeforeEach
