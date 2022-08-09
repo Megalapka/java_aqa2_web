@@ -13,7 +13,7 @@ public class ValidationCardApplication {
 
     @BeforeAll
     static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "C:/Project/java_aqa2_web/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "../resources/chromedriver.exe");
     }
 
     @BeforeEach
