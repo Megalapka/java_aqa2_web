@@ -12,7 +12,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
 public class ValidationCardApplication {
     private WebDriver driver;
 
@@ -173,7 +172,6 @@ public class ValidationCardApplication {
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Иванова Анна");
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79996644444");
         driver.findElement(By.cssSelector("div button")).click();
-
 
         Boolean actual = driver.findElement(By.cssSelector(".input_invalid[data-test-id='agreement']")).isEnabled();
 
